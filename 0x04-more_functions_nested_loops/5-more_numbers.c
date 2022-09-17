@@ -6,7 +6,6 @@
  *
  * Return: will return void
  */
-
 void more_numbers(void)
 {
 	int n, n1;
