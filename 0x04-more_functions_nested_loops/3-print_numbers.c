@@ -8,8 +8,12 @@
 
 void print_numbers(void)
 {
-	int a;
+	int a = 48;
 
-	for (a = '0'; a <= '9'; a++)
-		_putchar(a);
+	while (a <= 57)
+	{
+		putchar(a);
+		a++
+	}
+	putchar('\n\);
 }
