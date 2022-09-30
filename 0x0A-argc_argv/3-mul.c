@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - where program execution begins
  * @argc: commands in the command line count
