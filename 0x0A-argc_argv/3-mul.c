@@ -9,16 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1;
-	int num2;
-	int mul;
-
-	mul = num1 * num2;
-	if (argc != 2)
+	if (argc != 3)
 	{
 		printf("Error \n");
 		return (1);
 	}
-	printf("%d\n", mul);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
