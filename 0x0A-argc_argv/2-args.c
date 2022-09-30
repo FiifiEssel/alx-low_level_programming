@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- Where program execution starts
+ * main - Where program execution starts
  * @argc: number of command line arguments
  * @argv: an array pointing to argc
  * Return: returns 0 on sucess
